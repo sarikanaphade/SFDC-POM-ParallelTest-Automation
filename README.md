@@ -1,4 +1,3 @@
-SFCD Automation Project
 This repository contains automation tests for the SFCD application, utilizing TestNG for parallel test execution and ExtentReports for detailed HTML reporting.
 
 Setup & Installation
