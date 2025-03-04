@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SFDCSuite">
+  <test name="SFDCTest">
+    <classes>
+		
+      <class name="Tests.LoginTest"/>
+      <class name="Tests.UserMenuDropdownTest"/>
+      <class name="Tests.AccountsTest"/>
+      <class name="Tests.OpportunitiesTest"/>
+      <class name="Tests.LeadsTest"/>
+      <class name="Tests.ContactsTest"/>
+      <class name="Tests.HomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

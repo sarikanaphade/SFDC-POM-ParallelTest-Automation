@@ -1,0 +1,2535 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>SFDC Report - 20250221102650</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 21, 2025 10:26:50 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC01_TestErrorMessage</p>
+            <p class="text-sm">
+              <span>10:26:57 PM</span> / <span>00:00:03:409</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC01_TestErrorMessage</h5>
+<span class='badge badge-success'>02.21.2025 10:26:57 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:00 PM</span>
+<span class='badge badge-default'>00:00:03:409</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:00 PM</td>
+        <td>
+          Test : TC01_TestErrorMessage passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC02_TestValidLogin</p>
+            <p class="text-sm">
+              <span>10:27:06 PM</span> / <span>00:00:06:516</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC02_TestValidLogin</h5>
+<span class='badge badge-success'>02.21.2025 10:27:06 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:12 PM</span>
+<span class='badge badge-default'>00:00:06:516</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:07 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:08 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:11 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:12 PM</td>
+        <td>
+          Test : TC02_TestValidLogin passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC03_TestRememberMeLogin</p>
+            <p class="text-sm">
+              <span>10:27:17 PM</span> / <span>00:00:08:395</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC03_TestRememberMeLogin</h5>
+<span class='badge badge-success'>02.21.2025 10:27:17 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:26 PM</span>
+<span class='badge badge-default'>00:00:08:395</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:19 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:20 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:20 PM</td>
+        <td>
+          Remeber me checkbox checked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:23 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:23 PM</td>
+        <td>
+          Logged into the SFDC application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:26 PM</td>
+        <td>
+          Remeber Me functionality working correctly!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:26 PM</td>
+        <td>
+          Test : TC03_TestRememberMeLogin passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC04A_TestForgotPassword</p>
+            <p class="text-sm">
+              <span>10:27:31 PM</span> / <span>00:00:03:347</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC04A_TestForgotPassword</h5>
+<span class='badge badge-success'>02.21.2025 10:27:31 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:34 PM</span>
+<span class='badge badge-default'>00:00:03:347</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:33 PM</td>
+        <td>
+          Forgot password link clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:34 PM</td>
+        <td>
+          Test : TC04A_TestForgotPassword passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC04B_TestErrorMessage</p>
+            <p class="text-sm">
+              <span>10:27:39 PM</span> / <span>00:00:02:890</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC04B_TestErrorMessage</h5>
+<span class='badge badge-success'>02.21.2025 10:27:39 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:42 PM</span>
+<span class='badge badge-default'>00:00:02:890</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:42 PM</td>
+        <td>
+          Test : TC04B_TestErrorMessage passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC05_SelectUserMenu</p>
+            <p class="text-sm">
+              <span>10:27:47 PM</span> / <span>00:00:06:996</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC05_SelectUserMenu</h5>
+<span class='badge badge-success'>02.21.2025 10:27:47 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:27:54 PM</span>
+<span class='badge badge-default'>00:00:06:996</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:49 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:50 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:27:51 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:27:54 PM</td>
+        <td>
+          Test : TC05_SelectUserMenu passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC06_MyProfile</p>
+            <p class="text-sm">
+              <span>10:27:59 PM</span> / <span>00:00:16:142</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC06_MyProfile</h5>
+<span class='badge badge-success'>02.21.2025 10:27:59 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:28:15 PM</span>
+<span class='badge badge-default'>00:00:16:142</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:01 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:01 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:03 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:28:15 PM</td>
+        <td>
+          Test : TC06_MyProfile passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC07_MySettings</p>
+            <p class="text-sm">
+              <span>10:28:21 PM</span> / <span>00:00:27:402</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC07_MySettings</h5>
+<span class='badge badge-success'>02.21.2025 10:28:21 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:28:48 PM</span>
+<span class='badge badge-default'>00:00:27:402</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:23 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:23 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:26 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:28:48 PM</td>
+        <td>
+          Test : TC07_MySettings passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC08_DeveloperConsole</p>
+            <p class="text-sm">
+              <span>10:28:53 PM</span> / <span>00:00:08:935</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC08_DeveloperConsole</h5>
+<span class='badge badge-success'>02.21.2025 10:28:53 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:29:02 PM</span>
+<span class='badge badge-default'>00:00:08:935</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:55 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:56 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:28:57 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:29:02 PM</td>
+        <td>
+          Test : TC08_DeveloperConsole passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC09_Logout</p>
+            <p class="text-sm">
+              <span>10:29:08 PM</span> / <span>00:00:07:892</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC09_Logout</h5>
+<span class='badge badge-success'>02.21.2025 10:29:08 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:29:15 PM</span>
+<span class='badge badge-default'>00:00:07:892</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:09 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:10 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:11 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:29:15 PM</td>
+        <td>
+          Test : TC09_Logout passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC10_CreateAccount</p>
+            <p class="text-sm">
+              <span>10:29:20 PM</span> / <span>00:00:14:342</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC10_CreateAccount</h5>
+<span class='badge badge-success'>02.21.2025 10:29:20 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:29:35 PM</span>
+<span class='badge badge-default'>00:00:14:342</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:22 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:23 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:24 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:29:35 PM</td>
+        <td>
+          Test : TC10_CreateAccount passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC11_CreateView</p>
+            <p class="text-sm">
+              <span>10:29:40 PM</span> / <span>00:00:10:676</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC11_CreateView</h5>
+<span class='badge badge-success'>02.21.2025 10:29:40 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:29:51 PM</span>
+<span class='badge badge-default'>00:00:10:676</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:42 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:42 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:43 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:29:51 PM</td>
+        <td>
+          Test : TC11_CreateView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC12_EditView</p>
+            <p class="text-sm">
+              <span>10:29:56 PM</span> / <span>00:00:12:376</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC12_EditView</h5>
+<span class='badge badge-success'>02.21.2025 10:29:56 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:30:08 PM</span>
+<span class='badge badge-default'>00:00:12:376</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:58 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:29:58 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:00 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30:08 PM</td>
+        <td>
+          Test : TC12_EditView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC13_MergeAccounts</p>
+            <p class="text-sm">
+              <span>10:30:14 PM</span> / <span>00:00:11:879</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC13_MergeAccounts</h5>
+<span class='badge badge-success'>02.21.2025 10:30:14 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:30:26 PM</span>
+<span class='badge badge-default'>00:00:11:879</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:15 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:16 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:20 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30:26 PM</td>
+        <td>
+          Test : TC13_MergeAccounts passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC14_verifyCreateAccountReport</p>
+            <p class="text-sm">
+              <span>10:30:31 PM</span> / <span>00:00:12:851</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC14_verifyCreateAccountReport</h5>
+<span class='badge badge-success'>02.21.2025 10:30:31 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:30:43 PM</span>
+<span class='badge badge-default'>00:00:12:851</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:32 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:33 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:34 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30:43 PM</td>
+        <td>
+          Test : TC14_verifyCreateAccountReport passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC15_verifyOpportunityDropdown</p>
+            <p class="text-sm">
+              <span>10:30:49 PM</span> / <span>00:00:07:330</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC15_verifyOpportunityDropdown</h5>
+<span class='badge badge-success'>02.21.2025 10:30:49 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:30:56 PM</span>
+<span class='badge badge-default'>00:00:07:330</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:50 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:51 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:30:52 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30:56 PM</td>
+        <td>
+          Test : TC15_verifyOpportunityDropdown passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC16_verifyCreateNewOpportunity</p>
+            <p class="text-sm">
+              <span>10:31:01 PM</span> / <span>00:00:15:569</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC16_verifyCreateNewOpportunity</h5>
+<span class='badge badge-success'>02.21.2025 10:31:01 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:31:17 PM</span>
+<span class='badge badge-default'>00:00:15:569</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:04 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:05 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:07 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31:17 PM</td>
+        <td>
+          Test : TC16_verifyCreateNewOpportunity passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC17_verifyOpportunityPipelineReport</p>
+            <p class="text-sm">
+              <span>10:31:22 PM</span> / <span>00:00:08:069</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC17_verifyOpportunityPipelineReport</h5>
+<span class='badge badge-success'>02.21.2025 10:31:22 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:31:30 PM</span>
+<span class='badge badge-default'>00:00:08:069</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:24 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:24 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:25 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31:30 PM</td>
+        <td>
+          Test : TC17_verifyOpportunityPipelineReport passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC18_verifyStuckOpportunityReport</p>
+            <p class="text-sm">
+              <span>10:31:35 PM</span> / <span>00:00:08:648</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC18_verifyStuckOpportunityReport</h5>
+<span class='badge badge-success'>02.21.2025 10:31:35 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:31:44 PM</span>
+<span class='badge badge-default'>00:00:08:648</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:37 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:37 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:41 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31:44 PM</td>
+        <td>
+          Test : TC18_verifyStuckOpportunityReport passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC19_verifyQuarterlySummaryReport</p>
+            <p class="text-sm">
+              <span>10:31:49 PM</span> / <span>00:00:07:947</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC19_verifyQuarterlySummaryReport</h5>
+<span class='badge badge-success'>02.21.2025 10:31:49 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:31:57 PM</span>
+<span class='badge badge-default'>00:00:07:947</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:51 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:51 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:31:52 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31:57 PM</td>
+        <td>
+          Test : TC19_verifyQuarterlySummaryReport passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC20_verifyLeadsTab</p>
+            <p class="text-sm">
+              <span>10:32:02 PM</span> / <span>00:00:09:288</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC20_verifyLeadsTab</h5>
+<span class='badge badge-success'>02.21.2025 10:32:02 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:32:11 PM</span>
+<span class='badge badge-default'>00:00:09:288</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:04 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:04 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:09 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32:11 PM</td>
+        <td>
+          Test : TC20_verifyLeadsTab passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC21_verifyLeadsSelectView</p>
+            <p class="text-sm">
+              <span>10:32:17 PM</span> / <span>00:00:08:328</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC21_verifyLeadsSelectView</h5>
+<span class='badge badge-success'>02.21.2025 10:32:17 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:32:25 PM</span>
+<span class='badge badge-default'>00:00:08:328</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:19 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:19 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:22 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32:25 PM</td>
+        <td>
+          Test : TC21_verifyLeadsSelectView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC22_verifyDefaultLeadsView</p>
+            <p class="text-sm">
+              <span>10:32:30 PM</span> / <span>00:00:22:646</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC22_verifyDefaultLeadsView</h5>
+<span class='badge badge-success'>02.21.2025 10:32:30 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:32:53 PM</span>
+<span class='badge badge-default'>00:00:22:646</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:32 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:32 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:36 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:43 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:43 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:32:46 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32:53 PM</td>
+        <td>
+          Test : TC22_verifyDefaultLeadsView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC23_verifyTodaysLeads</p>
+            <p class="text-sm">
+              <span>10:32:58 PM</span> / <span>00:00:10:944</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC23_verifyTodaysLeads</h5>
+<span class='badge badge-success'>02.21.2025 10:32:58 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:33:09 PM</span>
+<span class='badge badge-default'>00:00:10:944</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:00 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:00 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:01 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33:09 PM</td>
+        <td>
+          Test : TC23_verifyTodaysLeads passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC24_verifyCreateNewLeads</p>
+            <p class="text-sm">
+              <span>10:33:14 PM</span> / <span>00:00:11:063</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC24_verifyCreateNewLeads</h5>
+<span class='badge badge-success'>02.21.2025 10:33:14 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:33:25 PM</span>
+<span class='badge badge-default'>00:00:11:063</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:16 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:16 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:20 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33:25 PM</td>
+        <td>
+          Test : TC24_verifyCreateNewLeads passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC26_verifyCreateNewViewContact</p>
+            <p class="text-sm">
+              <span>10:33:30 PM</span> / <span>00:00:10:341</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC26_verifyCreateNewViewContact</h5>
+<span class='badge badge-success'>02.21.2025 10:33:30 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:33:40 PM</span>
+<span class='badge badge-default'>00:00:10:341</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:32 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:32 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:33 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33:40 PM</td>
+        <td>
+          Test : TC26_verifyCreateNewViewContact passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC31_verifyCancelView</p>
+            <p class="text-sm">
+              <span>10:33:45 PM</span> / <span>00:00:09:841</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC31_verifyCancelView</h5>
+<span class='badge badge-success'>02.21.2025 10:33:45 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:33:55 PM</span>
+<span class='badge badge-default'>00:00:09:841</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:47 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:48 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:49 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33:55 PM</td>
+        <td>
+          Test : TC31_verifyCancelView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC25_verifyCreateNewContact</p>
+            <p class="text-sm">
+              <span>10:34:00 PM</span> / <span>00:00:10:967</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC25_verifyCreateNewContact</h5>
+<span class='badge badge-success'>02.21.2025 10:34:00 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:34:11 PM</span>
+<span class='badge badge-default'>00:00:10:967</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:02 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:03 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:06 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34:11 PM</td>
+        <td>
+          Test : TC25_verifyCreateNewContact passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC28_verifyMyContactsView</p>
+            <p class="text-sm">
+              <span>10:34:17 PM</span> / <span>00:00:16:166</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC28_verifyMyContactsView</h5>
+<span class='badge badge-success'>02.21.2025 10:34:17 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:34:33 PM</span>
+<span class='badge badge-default'>00:00:16:166</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:18 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:19 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:20 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34:33 PM</td>
+        <td>
+          Test : TC28_verifyMyContactsView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC29_verifyViewContact</p>
+            <p class="text-sm">
+              <span>10:34:38 PM</span> / <span>00:00:09:051</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC29_verifyViewContact</h5>
+<span class='badge badge-success'>02.21.2025 10:34:38 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:34:47 PM</span>
+<span class='badge badge-default'>00:00:09:051</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:40 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:40 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:42 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:34:47 PM</td>
+        <td>
+          Test : TC29_verifyViewContact passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC30_verifyInvalidView</p>
+            <p class="text-sm">
+              <span>10:34:52 PM</span> / <span>00:00:09:780</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC30_verifyInvalidView</h5>
+<span class='badge badge-success'>02.21.2025 10:34:52 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:35:02 PM</span>
+<span class='badge badge-default'>00:00:09:780</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:54 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:55 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:34:56 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35:02 PM</td>
+        <td>
+          Test : TC30_verifyInvalidView passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC32_verifySaveAndNewContact</p>
+            <p class="text-sm">
+              <span>10:35:07 PM</span> / <span>00:00:11:997</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">TC32_verifySaveAndNewContact</h5>
+<span class='badge badge-success'>02.21.2025 10:35:07 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:35:19 PM</span>
+<span class='badge badge-default'>00:00:11:997</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='/Users/shree/eclipse-workspace/SFDCAutomationPOM/src/main/resources/Reports/Screenshots/Output_20250221103519.png' src="/Users/shree/eclipse-workspace/SFDCAutomationPOM/src/main/resources/Reports/Screenshots/Output_20250221103519.png">
+  
+    
+
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:09 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:10 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:13 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:35:19 PM</td>
+        <td>
+          Test : TC32_verifySaveAndNewContact failed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC27_verifyRecentlyCreatedContact</p>
+            <p class="text-sm">
+              <span>10:35:24 PM</span> / <span>00:00:08:330</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC27_verifyRecentlyCreatedContact</h5>
+<span class='badge badge-success'>02.21.2025 10:35:24 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:35:33 PM</span>
+<span class='badge badge-default'>00:00:08:330</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:26 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:27 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:28 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35:33 PM</td>
+        <td>
+          Test : TC27_verifyRecentlyCreatedContact passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC33_verifyLoggedInUser</p>
+            <p class="text-sm">
+              <span>10:35:38 PM</span> / <span>00:00:11:395</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC33_verifyLoggedInUser</h5>
+<span class='badge badge-success'>02.21.2025 10:35:38 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:35:49 PM</span>
+<span class='badge badge-default'>00:00:11:395</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:40 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:40 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:41 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:35:49 PM</td>
+        <td>
+          Test : TC33_verifyLoggedInUser passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC34_verifyEditUser</p>
+            <p class="text-sm">
+              <span>10:35:55 PM</span> / <span>00:00:15:508</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC34_verifyEditUser</h5>
+<span class='badge badge-success'>02.21.2025 10:35:55 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:36:10 PM</span>
+<span class='badge badge-default'>00:00:15:508</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:56 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:57 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:35:58 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36:10 PM</td>
+        <td>
+          Test : TC34_verifyEditUser passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC35_verifyTabCustomization</p>
+            <p class="text-sm">
+              <span>10:36:16 PM</span> / <span>00:00:00:005</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC35_verifyTabCustomization</h5>
+<span class='badge badge-success'>02.21.2025 10:36:16 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:36:16 PM</span>
+<span class='badge badge-default'>00:00:00:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36:16 PM</td>
+        <td>
+          Test : TC35_verifyTabCustomization passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC36_verifyCalendarEvent</p>
+            <p class="text-sm">
+              <span>10:36:21 PM</span> / <span>00:00:20:153</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC36_verifyCalendarEvent</h5>
+<span class='badge badge-success'>02.21.2025 10:36:21 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:36:41 PM</span>
+<span class='badge badge-default'>00:00:20:153</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:22 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:23 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:24 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:36:41 PM</td>
+        <td>
+          Test : TC36_verifyCalendarEvent passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TC37_verifyCalendarRecurringEvent</p>
+            <p class="text-sm">
+              <span>10:36:46 PM</span> / <span>00:00:20:116</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC37_verifyCalendarRecurringEvent</h5>
+<span class='badge badge-success'>02.21.2025 10:36:46 PM</span>
+<span class='badge badge-danger'>02.21.2025 10:37:06 PM</span>
+<span class='badge badge-default'>00:00:20:116</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:48 PM</td>
+        <td>
+          Entered username: sarika@testing.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:49 PM</td>
+        <td>
+          Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:36:50 PM</td>
+        <td>
+          Login Button clicked 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:06 PM</td>
+        <td>
+          Test : TC37_verifyCalendarRecurringEvent passed!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 21, 2025 10:26:50 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 21, 2025 10:37:13 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>37</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'>
+<b>37</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='2%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'><b>37</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> events failed,
+<b data-tooltip='%'>109</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TC01_TestErrorMessage":3.409,"TC02_TestValidLogin":6.516,"TC03_TestRememberMeLogin":8.395,"TC04A_TestForgotPassword":3.347,"TC04B_TestErrorMessage":2.89,"TC05_SelectUserMenu":6.996,"TC06_MyProfile":16.142,"TC07_MySettings":27.402,"TC08_DeveloperConsole":8.935,"TC09_Logout":7.892,"TC10_CreateAccount":14.342,"TC11_CreateView":10.676,"TC12_EditView":12.376,"TC13_MergeAccounts":11.879,"TC14_verifyCreateAccountReport":12.851,"TC15_verifyOpportunityDropdown":7.33,"TC16_verifyCreateNewOpportunity":15.569,"TC17_verifyOpportunityPipelineReport":8.069,"TC18_verifyStuckOpportunityReport":8.648,"TC19_verifyQuarterlySummaryReport":7.947,"TC20_verifyLeadsTab":9.288,"TC21_verifyLeadsSelectView":8.328,"TC22_verifyDefaultLeadsView":22.646,"TC23_verifyTodaysLeads":10.944,"TC24_verifyCreateNewLeads":11.063,"TC26_verifyCreateNewViewContact":10.341,"TC31_verifyCancelView":9.841,"TC25_verifyCreateNewContact":10.967,"TC28_verifyMyContactsView":16.166,"TC29_verifyViewContact":9.051,"TC30_verifyInvalidView":9.78,"TC32_verifySaveAndNewContact":11.997,"TC27_verifyRecentlyCreatedContact":8.33,"TC33_verifyLoggedInUser":11.395,"TC34_verifyEditUser":15.508,"TC35_verifyTabCustomization":0.005,"TC36_verifyCalendarEvent":20.153,"TC37_verifyCalendarRecurringEvent":20.116
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 37,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 37,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 109
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

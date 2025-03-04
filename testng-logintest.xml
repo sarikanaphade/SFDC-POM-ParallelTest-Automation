@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="3" parallel="methods" name="LoginSuite">
+  <test name="DemoTest">
+    <classes>
+      <class name="Tests.LoginTest"/>
+      <!-- <class name="Tests.HomeTest"/>-->
+      <class name="Tests.UserMenuDropdownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LoginSuite -->
