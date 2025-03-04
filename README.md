@@ -13,7 +13,7 @@ To execute tests:
 mvn test
 
 Parallel Execution
-Tests are executed in parallel using TestNG. The configuration is set in the testng.xml file (parallel="tests" and thread-count="4").
+Tests are executed in parallel using TestNG. The configuration is set in the testng.xml file (parallel="methods" and thread-count="4").
 
 Reports
 Test results are generated in HTML format using ExtentReports and stored under resources/Reports/SFCDReport* folder/index.html.
